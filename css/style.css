@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+     background-image: url("../Task%201/image/color-conifer-environment-192136.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #191919
+}
+ .Sign{
+     width: 50px;
+     height: 50px;
+     background: #db3434;
+     padding: 10px 10px;
+     text-align: center;
+     margin-left: 300px;
+     transform: (-50%,-50%);
+     transition: 2s;
+     margin-bottom: 50px;
+ }
+ .Sign:hover{
+     background: #db3434;  
+     width: 80px;
+     height: 50px;  
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+ }
+
+ .Sign a{
+     text-decoration: none;
+     color: #e4f0e7;
+     transform: (-50%,-50%);
+     transition: 1.5s;
+ }
+.Sign a:hover{
+    font-size: 20px; 
+    font-weight: 400;
+    padding-top: 5px;
+}
+form{
+    
+    background: rgba(0, 0, 0, 0.788);
+    width: 300px;
+    height: 300px;
+    left: 50%;
+    top: 47%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding:40px;
+    border-radius: 20px;
+
+}
+
+form h1{
+   color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+form .text, form .pass{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+ }
+form .text:focus, form .pass:focus{
+  width: 280px;
+    border-color: #2ecc71;
+}
+
+form .login{
+      border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid rgba(6, 153, 38, 0.658);
+    padding: 14px 40px;
+    width: 180px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+
+form .login:hover{
+    background: rgba(6, 153, 38, 0.658);
+}
+p{
+    text-align: center;
+    color: #fafafa;
+    margin-top: 500px;
+
+}
+span{
+    color: rgba(6, 153, 38, 0.836); 
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    
+}
